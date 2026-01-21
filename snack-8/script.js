@@ -24,7 +24,10 @@ const students = [
 
 //faccendo lo stesso ragionamento dello snack 7:
 
-const classeMarco = students.filter(() => {
+const classeMarco = students.filter((studente) => {
+  return studente.name === "Marco Lanci";
 
 }
 );
+
+console.log(classeMarco.class);
