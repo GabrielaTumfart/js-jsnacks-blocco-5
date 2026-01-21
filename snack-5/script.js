@@ -9,4 +9,6 @@ const numeriPari nums.filter((numero) => {
     return numero % 2 === 0;
 
 }
-)
+);
+
+console.log(numeriPari);
