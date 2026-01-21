@@ -20,3 +20,10 @@ const zuchineLunghe = zucchine.filter((zuchina) => {
 );
 
 console.log(zuchineLunghe);
+
+//faccio lo stesso ragionamento di prima
+
+const zuchineRestanti = zucchine.filter((zuchina) => {
+
+}
+);
