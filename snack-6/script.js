@@ -24,6 +24,10 @@ console.log(zuchineLunghe);
 //faccio lo stesso ragionamento di prima
 
 const zuchineRestanti = zucchine.filter((zuchina) => {
+  return zuchina.length < 15;
 
 }
 );
+
+console.log(zuchineRestanti);
+
