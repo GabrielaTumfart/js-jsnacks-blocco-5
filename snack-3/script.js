@@ -6,8 +6,8 @@ const numbers = [2, 8, 4, 7, 2, 87];
 //uso il map
 
 const incrementati = numbers.map((numero) => {
-    return numbers + 1
-)};
+    return numero + 1
+});
 
 console.log(incrementati);
 
