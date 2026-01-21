@@ -10,6 +10,6 @@ const people = [
 //provo ad usare il forEach che abbiamo imparato oggi da Tiziano
 
 people.forEach((persona) => {
-const {name} = persona;
+const {name} = persona; //ho usato la destruttrazione
 console.log(name);
 });
