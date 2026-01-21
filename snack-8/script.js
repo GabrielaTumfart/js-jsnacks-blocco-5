@@ -21,3 +21,10 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+//faccendo lo stesso ragionamento dello snack 7:
+
+const classeMarco = students.filter(() => {
+
+}
+);
