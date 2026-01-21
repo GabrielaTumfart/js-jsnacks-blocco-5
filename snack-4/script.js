@@ -11,5 +11,8 @@ const posts = [
 //faccio lo stesso raginamento del snack 3
 
 const autori = posts.map((post) => {
+  return post.author;
 
 });
+
+console.log(autori);
