@@ -6,3 +6,6 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+const {name} = persona;
+console.log(name);
