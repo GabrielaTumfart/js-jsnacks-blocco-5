@@ -5,7 +5,7 @@ const nums = [2, 8, 4, 7, 12, 87];
 
 //per questo esercizio user`il filter che abbiamo imparato oggi da Tiziano
 
-const numeriPari nums.filter((numero) => {
+const numeriPari = nums.filter((numero) => {
     return numero % 2 === 0;
 
 }
