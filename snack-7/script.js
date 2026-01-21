@@ -24,8 +24,10 @@ const students = [
 
 //uso il find che abbiamo imparato oggi
 
-const studentId2 = students.find(() => {
-return 
+const studentId2 = students.find((studente) => {
+return studente.id === 2;
 
 }
 );
+
+console.log(studentId2);
