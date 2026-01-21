@@ -5,7 +5,7 @@ const numbers = [2, 8, 4, 7, 2, 87];
 
 //uso il map
 
-const incrementati = numero.map ((numbers)) => {
+const incrementati = numero.map((numbers)) => {
     return numbers + 1
 }
 
