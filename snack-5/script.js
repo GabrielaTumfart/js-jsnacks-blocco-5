@@ -8,7 +8,6 @@ const nums = [2, 8, 4, 7, 12, 87];
 const numeriPari = nums.filter((numero) => {
     return numero % 2 === 0;
 
-}
-);
+});
 
 console.log(numeriPari);
