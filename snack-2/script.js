@@ -7,5 +7,9 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
+//provo ad usare il forEach che abbiamo imparato oggi da Tiziano
+
+people.forEach((persona) => {
 const {name} = persona;
 console.log(name);
+});
