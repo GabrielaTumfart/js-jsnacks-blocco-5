@@ -24,7 +24,7 @@ const students = [
 
 //faccendo lo stesso ragionamento dello snack 7:
 
-const classeMarco = students.filter((studente) => {
+const classeMarco = students.find((studente) => { //buonanotta stavo usando il filter ma devo usare il find
   return studente.name === "Marco Lanci";
 
 }
